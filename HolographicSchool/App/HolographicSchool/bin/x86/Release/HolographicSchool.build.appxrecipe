@@ -430,11 +430,17 @@
     <AppxPackagedFile Include="C:\Users\Dinesh\Desktop\HolographicSchool\HolographicSchool\App\HolographicSchool\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dinesh\Desktop\HolographicSchool\HolographicSchool\App\HolographicSchool\Data\resources.assets">
+      <PackagePath>Data\resources.assets</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dinesh\Desktop\HolographicSchool\HolographicSchool\App\HolographicSchool\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dinesh\Desktop\HolographicSchool\HolographicSchool\App\HolographicSchool\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dinesh\Desktop\HolographicSchool\HolographicSchool\App\HolographicSchool\Data\resources.assets.resS">
+      <PackagePath>Data\resources.assets.resS</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dinesh\Desktop\HolographicSchool\HolographicSchool\App\HolographicSchool\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
@@ -444,6 +450,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dinesh\Desktop\HolographicSchool\HolographicSchool\App\HolographicSchool\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dinesh\Desktop\HolographicSchool\HolographicSchool\App\HolographicSchool\Data\sharedassets0.resource">
+      <PackagePath>Data\sharedassets0.resource</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -460,6 +469,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dinesh\Desktop\HolographicSchool\HolographicSchool\App\HolographicSchool\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dinesh\Desktop\HolographicSchool\HolographicSchool\App\HolographicSchool\TextMeshPro-1.0.55.56.0b9.dll">
+      <PackagePath>TextMeshPro-1.0.55.56.0b9.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dinesh\Desktop\HolographicSchool\HolographicSchool\App\HolographicSchool\UnityEngine.HoloLens.dll">
       <PackagePath>UnityEngine.HoloLens.dll</PackagePath>

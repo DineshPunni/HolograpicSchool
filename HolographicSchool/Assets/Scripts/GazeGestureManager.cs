@@ -1,14 +1,24 @@
 ﻿using UnityEngine;
 using UnityEngine.VR.WSA.Input;
+using UnityEngine.Events;
 
 public class GazeGestureManager : MonoBehaviour
 {
 	public static GazeGestureManager Instance { get; private set; }
+	public UnityEvent tapped;
 
 	// Represents the hologram that is currently being gazed at.
 	public GameObject FocusedObject { get; private set; }
 
 	GestureRecognizer recognizer;
+	public GameObject boxPrefab;
+
+	private EventsManager eventsManager;
+
+	void Start()
+	{
+		eventsManager = FindObjectOfType<EventsManager>();
+	}
 
 	// Use this for initialization
 	void Awake()
@@ -22,7 +32,13 @@ public class GazeGestureManager : MonoBehaviour
 			// Send an OnSelect message to the focused object and its ancestors.
 			if (FocusedObject != null)
 			{
-				FocusedObject.SendMessageUpwards("OnSelect");
+				//FocusedObject.SendMessageUpwards("OnSelect");
+				//Destroy(FocusedObject);
+				//Instantiate(boxPrefab, new Vector3(2, 0, 7), Quaternion.identity);
+				eventsManager.startTimer = true;
+				Debug.Log(FocusedObject);
+				//if(FocusedObject.GetComponent<GazeGestureManager>() != null)
+					FocusedObject.GetComponent<GazeGestureManager>().tapped.Invoke();
 			}
 		};
 		recognizer.StartCapturingGestures();

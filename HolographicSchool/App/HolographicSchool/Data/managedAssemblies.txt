@@ -1,6 +1,7 @@
 Assembly-CSharp.dll
 nunit.framework.dll
 UnityEngine.UI.dll
+TextMeshPro-1.0.55.56.0b9.dll
 UnityEngine.HoloLens.dll
 UnityEngine.Networking.dll
 UnityEngine.VR.dll

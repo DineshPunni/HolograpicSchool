@@ -9,7 +9,7 @@ HolographicSchool.sln: modified
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 4FCF72A4D5EDB37E24C206A7BCFE7AF1
 GeneratedProjects\UWP\Assembly-CSharp-firstpass\project.json: 4FCF72A4D5EDB37E24C206A7BCFE7AF1
 HolographicSchool\App.cs: 37E6B82D5226884C7E8326C108234C11
-HolographicSchool\HolographicSchool.csproj: 5FA3058CA11E9F73B025095F57893A67
+HolographicSchool\HolographicSchool.csproj: modified
 HolographicSchool\HolographicSchool.csproj.user: modified
 HolographicSchool\Package.appxmanifest: E8387E012C266F3D124F5857AB226985
 HolographicSchool\project.json: 1D02BC64BAC0D041019673A1C4C51737
